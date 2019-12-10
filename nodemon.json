@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "Jay",
+        "MONGO_PASSWORD": "smallcouncil",
+        "MONGO_DEFAULT_DATABASE": "shop",
+        "STRIPE_KEY": "sk_test_V9Y99DCD27h40fVBU2PmkGNl0084Bw5RHl"
+    }
+}

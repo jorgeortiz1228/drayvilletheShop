@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 //npm install --save stripe
-const stripe = require('stripe')('sk_test_V9Y99DCD27h40fVBU2PmkGNl0084Bw5RHl');
+const stripe = require('stripe')(process.env.STRIPE_KEY);
 
 //npm install --save pdfkit
 const PDFDocument = require('pdfkit');
