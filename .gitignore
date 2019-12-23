@@ -13,9 +13,7 @@ views/not-used/shop.pug
 util/database.js
 data/cart.json
 data/products.json
-data/invoices/invoice-5de4cd947a084d632388d198.pdf
-data/invoices/invoice-5de4e38f218747690da7dbaa.pdf
-data/invoices/invoice-5de6082fdd732a855705d080.pdf
-access.log
+nodemon.json
 server.cert
 server.key
+access.log

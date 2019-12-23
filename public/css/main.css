@@ -75,7 +75,8 @@ form {
 .main-header__item a.active,
 .main-header__item button:hover,
 .main-header__item button:active {
-  color: #ffeb3b;
+  /* color: #ffeb3b; */
+  color: #ff9ab2;
 }
 
 .mobile-nav {
@@ -147,8 +148,10 @@ form {
 
 #side-menu-toggle:active,
 #side-menu-toggle:hover {
-  color: #ffeb3b;
-  border-color: #ffeb3b;
+  /* color: #ffeb3b;
+  border-color: #ffeb3b; */
+  color: #ff9ab2;
+  border-color: #ff9ab2;
 }
 
 .backdrop {

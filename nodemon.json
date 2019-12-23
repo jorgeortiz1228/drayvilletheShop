@@ -3,6 +3,7 @@
         "MONGO_USER": "Jay",
         "MONGO_PASSWORD": "smallcouncil",
         "MONGO_DEFAULT_DATABASE": "shop",
-        "STRIPE_KEY": "sk_test_V9Y99DCD27h40fVBU2PmkGNl0084Bw5RHl"
+        "STRIPE_KEY": "sk_test_V9Y99DCD27h40fVBU2PmkGNl0084Bw5RHl",
+        "TRANSPORTER_KEY": "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"
     }
 }

@@ -173,14 +173,13 @@ exports.getCheckout = (req, res, next) => {
             products.forEach(p => {
                 total += p.quantity * p.productId.price;
             });
-
             return stripe.checkout.sessions.create({
                 payment_method_types: ['card'],
                 line_items: products.map(p => {
                     return {
                         name: p.productId.title,
                         description: p.productId.description,
-                        amount: p.productId.price * 100, //bc these niggas it in cents
+                        amount: p.productId.price * 100, //bc these niggas is in cents
                         currency: 'usd',
                         quantity: p.quantity
                     };
@@ -188,7 +187,6 @@ exports.getCheckout = (req, res, next) => {
                 success_url: req.protocol + '://' + req.get('host') + '/checkout/success', // => http://localhost:3000
                 cancel_url: req.protocol + '://' + req.get('host') + '/checkout/cancel'
             });
-
             
         })
         .then(session => {
